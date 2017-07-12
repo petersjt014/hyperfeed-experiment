@@ -1,30 +1,7 @@
-# Learn Rollup.js
+# hyperfeed-exp
 
-This is an example project to accompany a tutorial on using [Rollup](http://rollupjs.org/).
+My attempt at setting up [hyperfeed](https://github.com/poga/hyperfeed) as a fully-frontend blob of javascript via [rollup.js](rollupjs.org).
 
-See the video of how this was made at https://code.lengstorf.com/learn-rollup-js/
+## Details
 
-## Quickstart
-
-``` sh
-# Clone the repo
-git clone git@github.com:jlengstorf/learn-rollup.git
-
-# Move into the repo
-cd learn-rollup/
-
-# Install dependencies
-npm install
-
-# Start the watcher
-npm run watch
-```
-
-## Alternative Configurations
-
-- [Default configuration (as built in the video)](https://github.com/jlengstorf/learn-rollup/)
-- [Simple Node server for development using Express](https://github.com/jlengstorf/learn-rollup/tree/alt-config/express)
-- [Extra configuration to support React](https://github.com/jlengstorf/learn-rollup/tree/alt-config/react)
-- [Extra configuration with `rollup-plugin-livereload`](https://github.com/jlengstorf/learn-rollup/tree/alt-config/rollup-plugin-livereload)
-
-
+I'm using [this template](https://github.com/jlengstorf/learn-rollup) and trying to adapt it to fit my needs. It's proving to be slow and painful due to the ungodly number of dependencies needed (because node), but interesting anyway.
