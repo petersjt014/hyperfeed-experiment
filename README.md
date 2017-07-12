@@ -1,6 +1,6 @@
 # hyperfeed-exp
 
-My attempt at setting up [hyperfeed](https://github.com/poga/hyperfeed) as a fully-frontend blob of javascript via [rollup.js](rollupjs.org).
+My in-progress attempt at setting up [hyperfeed](https://github.com/poga/hyperfeed) as a fully-frontend blob of javascript via [rollup.js](rollupjs.org).
 
 ## Details
 
