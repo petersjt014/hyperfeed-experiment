@@ -6,9 +6,14 @@
 import debug from 'debug';
 const log = debug('app:log');
 
-// Enable the logger.
-debug.enable('*');
-log('Logging is enabled!');
+if (ENV !== 'production') {
+
+  // Enable the logger.
+  debug.enable('*');
+  log('Logging is enabled!');
+} else {
+  debug.disable();
+}
 
 
 function testThings() {
