@@ -4,7 +4,7 @@ import eslint from 'rollup-plugin-eslint';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from 'rollup-plugin-replace';
-import uglify from 'rollup-plugin-uglify';
+// import uglify from 'rollup-plugin-uglify';
 import postcss from 'rollup-plugin-postcss';
 
 // PostCSS plugins
@@ -45,7 +45,7 @@ export default {
     replace({
       exclude: 'node_modules/**',
       ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
-    }),
-    (process.env.NODE_ENV === 'production' && uglify()),
+    })
+    // , (process.env.NODE_ENV === 'production' && uglify()),
   ],
 };
